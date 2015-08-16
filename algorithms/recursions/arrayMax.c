@@ -1,8 +1,8 @@
 /* Program uses recursion to find the max number in a given array
  * of size 'N'. Array can hold negative numbers and size can be
  * 1 or 0. No Global variables allowed
- * This projected is licensed under the terms of the MIT license.
- * Copyright Balaji Ravidnran 2015
+ * This project is licensed under the terms of the MIT license.
+ * Copyright (c) 2015 Balaji Ravindran
  */
 #include <stdio.h>
 #include <stdlib.h>
