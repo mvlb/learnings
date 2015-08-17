@@ -1,9 +1,6 @@
 #include "differenceSequence.h"
 
-#ifdef ARRAY_SIZE
-#undef ARRAY_SIZE
 #define ARRAY_SIZE	5
-#endif
 
 int* differenceSequence(int array[], int n, int count) {
 	

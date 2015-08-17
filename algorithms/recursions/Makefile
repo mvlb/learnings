@@ -1,7 +1,7 @@
 CC		= gcc
 CLFAGS	= -Wall
 
-EXCLUSIONS	=
+EXCLUSIONS	= 
 
 HDR			= $(wildcard *.h)
 SRC			= $(filter-out $(EXCLUSIONS),$(wildcard *.c))
@@ -11,6 +11,7 @@ all: $(PROGS)
 
 %: %.c %.h common.h
 	$(CC) $(CFLAGS) -o $@ $<
+
 
 clean:
 	rm -rf $(PROGS)
